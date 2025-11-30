@@ -10,6 +10,7 @@ import { ForbiddenError } from "./error/ForbiddenError.js";
 const AuthGuard = (validation, CustomError, Component) => {
   return () => {
     const { isLoggedIn } = globalStore.getState();
+
     if (validation(isLoggedIn)) {
       throw new CustomError();
     }
