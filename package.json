@@ -1,24 +1,29 @@
 {
   "name": "vanilla-javascript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Vanilla JS로 React 만들기",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ParkYongHo1/Vanilla-Javascript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vanilla-js",
+    "react",
+    "spa"
+  ],
+  "author": "ParkYongHo",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ParkYongHo1/Vanilla-Javascript/issues"
   },
   "homepage": "https://github.com/ParkYongHo1/Vanilla-Javascript#readme",
-  "dependencies": {
-    "express": "^5.1.0"
+  "devDependencies": {
+    "vite": "^6.4.1"
   }
 }
